@@ -27,7 +27,9 @@ As Input shown, *IF* function contains another *IF* which have an *Print* functi
 
 1- We made a grammer for if statment as you can find in ([If.g4](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/If.g4))
 with start rule:
-prog : if_stmt+;
+
+![2023-03-22_18h41_42224](https://user-images.githubusercontent.com/76706477/226976604-d2a17a56-e438-45da-934e-7398f17431b4.png)
+
 
 2- After that we generate a parse tree, to show every branch of the tree and its children :
 
@@ -45,7 +47,9 @@ prog : if_stmt+;
 
 
 
+
 ***Some Tips***
+
 
 In our main file:  [Test.java](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/Test.java) We use:
 
