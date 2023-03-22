@@ -19,7 +19,8 @@ As Input shown, *IF* function contains another *IF* which have an *Print* functi
 
 ![c62ff5ec-5803-4619-a718-65f2a51e7001](https://user-images.githubusercontent.com/76706477/226959632-f7234121-3e54-4754-b9fd-ac177ef74876.jpg)
 
-(You can find it in:(output.txt)
+
+(You can find it in:(Compiler_project/Test.txt at main · Asmahan-Rashed/Compiler_project)[output.txt])
 
 **To make this scenario:**
 
@@ -33,4 +34,12 @@ prog : if_stmt+;
 
 ![91796e07-a6ce-4d3c-8820-73d5843d25a3](https://user-images.githubusercontent.com/76706477/226966350-608008d2-bd29-4b44-a86b-ba1f6935ed5e.jpg)
 
-3-
+3- By using *ListenerFunctions* for specefic tokens -as we need- We made a class *extends* from **Baselistener** which is:
+()
+
+4- We output our output in new file which is:
+
+
+
+***Some Tips***
+
