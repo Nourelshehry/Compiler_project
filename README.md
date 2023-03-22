@@ -3,7 +3,7 @@
 ## First Task
 In this project, We use **Antlr4 program** to read *if statment* which takes each block and numbering it sequentially.
 Once we put an input which contains **nested if** with *True* or *False* condition as input shown :
-(You can find it in: (https://github.com/Asmahan-Rashed/Compiler_project/blob/main/Test.txt) )
+(You can find it in: (Test.txt)
 
 **INPUT**
 
@@ -19,7 +19,7 @@ As Input shown, *IF* function contains another *IF* which have an *Print* functi
 
 ![c62ff5ec-5803-4619-a718-65f2a51e7001](https://user-images.githubusercontent.com/76706477/226959632-f7234121-3e54-4754-b9fd-ac177ef74876.jpg)
 
-(You can find it in:(https://github.com/Asmahan-Rashed/Compiler_project/blob/main/output.txt))
+(You can find it in:(output.txt)
 
 **To make this scenario:**
 
