@@ -24,4 +24,11 @@ As Input shown, *IF* function contains another *IF* which have an *Print* functi
 **To make this scenario:**
 
 1- We made a grammer for if statment as you can find in ([If.g4](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/If.g4))
+with start rule:
+
+2- After that we generate a parse tree, to show every branch of the tree and its children :
+
+**Parsing Tree**
+
+![c62ff5ec-5803-4619-a718-65f2a51e7001](https://user-images.githubusercontent.com/76706477/226964377-5c3b082f-a36f-4ea9-bc46-c6a59bcc9d92.jpg)
 
