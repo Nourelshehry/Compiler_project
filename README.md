@@ -30,5 +30,5 @@ with start rule:
 
 **Parsing Tree**
 
-![c62ff5ec-5803-4619-a718-65f2a51e7001](https://user-images.githubusercontent.com/76706477/226964377-5c3b082f-a36f-4ea9-bc46-c6a59bcc9d92.jpg)
+![91796e07-a6ce-4d3c-8820-73d5843d25a3](https://user-images.githubusercontent.com/76706477/226966350-608008d2-bd29-4b44-a86b-ba1f6935ed5e.jpg)
 
