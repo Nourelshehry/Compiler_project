@@ -1,0 +1,4 @@
+if(x==true){//block number 1
+if(z==false){//block number 2
+if(y==false){//block number 3
+print();}}}

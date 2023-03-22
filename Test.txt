@@ -1,0 +1,7 @@
+if(x==true){
+    if(z==false){
+        if(y==false){
+            print();
+        }
+    }
+}
