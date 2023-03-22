@@ -31,6 +31,7 @@ prog : if_stmt+;
 
 2- After that we generate a parse tree, to show every branch of the tree and its children :
 
+
 **Parsing Tree**
 
 ![91796e07-a6ce-4d3c-8820-73d5843d25a3](https://user-images.githubusercontent.com/76706477/226966350-608008d2-bd29-4b44-a86b-ba1f6935ed5e.jpg)
@@ -43,10 +44,18 @@ prog : if_stmt+;
 (You can find it in:[output.txt](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/output.txt))
 
 
+
 ***Some Tips***
+
+In our main file:  [Test.java](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/Test.java) We use:
+
+
 1- We use **Walker** to know how to walk through the tree and point to specific position to write before or after this position:
+
+![2023-03-22_18h36_13](https://user-images.githubusercontent.com/76706477/226975538-ef5dc1ce-e98e-4dfc-976d-ac19fc813df2.png)
 
 
 2- We use **Rewritter** to write in specific position as we need:
 
+![q2023-03-22_18h36_13](https://user-images.githubusercontent.com/76706477/226975441-aaeab462-af3a-4f10-b6af-1ac05a3688ac.png)
 
