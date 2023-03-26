@@ -21,11 +21,11 @@ As Input shown, *IF* function contains another *IF* which have an *Print* functi
 ![c62ff5ec-5803-4619-a718-65f2a51e7001](https://user-images.githubusercontent.com/76706477/226959632-f7234121-3e54-4754-b9fd-ac177ef74876.jpg)
 
 
-(You can find it in:[output.txt](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/output.txt))
+(You can find it in:[output.java](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/output.java))
 
 **To make this scenario:**
 
-1- We made a grammer for if statment as you can find in ([If.g4](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/If.g4))
+1- We took a grammer for if statment as you can find in ([JavaParser.g4](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/JavaParser.g4))
 with start rule:
 
 ![2023-03-22_18h41_42224](https://user-images.githubusercontent.com/76706477/226976604-d2a17a56-e438-45da-934e-7398f17431b4.png)
@@ -43,7 +43,7 @@ with start rule:
 
 4- We output our output in new file which is:
 
-(You can find it in:[output.txt](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/output.txt))
+(You can find it in:[output.java](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/output.java))
 
 
 
@@ -51,7 +51,7 @@ with start rule:
 ***Some Tips***
 
 
-In our main file:  [Test.java](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/Test.java) We use:
+In our main file:  [main.java](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/main.java) We use:
 
 
 1- We use **Walker** to know how to walk through the tree and point to specific position to write before or after this position:
