@@ -4,7 +4,7 @@
 In this project, We use **Antlr4 program** to read *if statment* which takes each block and numbering it sequentially.
 Once we put an input which contains **nested if** with *True* or *False* condition as input shown :
 
-(You can find it in: [Test.txt](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/Test.txt))
+(You can find it in: [input.java](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/input.java))
 
 **INPUT**
 
