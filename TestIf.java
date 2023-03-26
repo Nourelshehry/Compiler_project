@@ -1,6 +1,6 @@
 import org.antlr.v4.runtime.TokenStreamRewriter;
 
-public class TestIf extends IfBaseListener{
+public class TestIf extends JavaParserBaseListener{
 
     int count;
     TokenStreamRewriter rewriter;
@@ -11,7 +11,7 @@ public class TestIf extends IfBaseListener{
     }
 
     @Override
-    public void exitOpen(IfParser.OpenContext ctx) {
+    public void enterBlock(JavaParser.BlockContext ctx) {
         count++;
         rewriter.insertAfter(ctx.getStart(), "//block number " + count + "\n");
     }
