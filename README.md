@@ -99,3 +99,27 @@ The output file must be like that:
 ![parsingtree](https://user-images.githubusercontent.com/76706477/228052044-63f917fc-c366-45ca-bf73-1257c87cc6e6.png)
 
 
+2- We get the left side of condition (e.g: x) and get the right side (e.g: 1)  to know if the condition is ***TRUE*** or not, it's only ***True*** when the left side **equals*** the right side. We use  ***visitVariableDeclarator*** to make us able to get the variable (rightside) and the value (leftside) and store it in the **HashMap**
+
+
+![1111](https://user-images.githubusercontent.com/76706477/228055961-b7641c22-eae6-4796-8339-c610f0c5c16f.png)
+
+
+
+3- After that, it is time to check the condition, by visiting the ***visitParExpression*** then checking (leftside) and (rightside) by getting it from **HashMap** & the operation between them (e.g: ==). 
+
+![2222](https://user-images.githubusercontent.com/76706477/228057766-239a3d0d-fd68-4108-8d7f-dc0bb36d9d9c.png)
+
+
+4- We use **Rewritter** to write the comment which we need after each condition (Parexpression). The file of this scenario is found here: [TestJava](https://github.com/Asmahan-Rashed/Compiler_project/blob/main/TestIf.java)
+
+
+
+***Some Tips***
+
+1- We use **HashMap** to store the values of each coming variable, to can get values from it in the phase of checking variables:
+
+![hashmap](https://user-images.githubusercontent.com/76706477/228060969-9342b973-ba16-4176-9536-1a6a6855e353.png)
+
+
+2- We print the output in the file (outputt.java) to make us able to run it after that again.
