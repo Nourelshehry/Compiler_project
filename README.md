@@ -115,6 +115,9 @@ The output file must be like that:
 
 
 
+
+
+
 ***Some Tips***
 
 1- We use **HashMap** to store the values of each coming variable, to can get values from it in the phase of checking variables:
