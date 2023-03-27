@@ -64,3 +64,38 @@ In our main file:  [main.java](https://github.com/Asmahan-Rashed/Compiler_projec
 
 ![q2023-03-22_18h36_13](https://user-images.githubusercontent.com/76706477/226975441-aaeab462-af3a-4f10-b6af-1ac05a3688ac.png)
 
+
+
+
+## Second Task
+
+This Task depinds on vsiting each block in input file, and write whether the block is visited or not. The block is visited only if the condition is ***True***.
+
+Our input file is look like that:
+
+
+**INPUT**
+
+![input](https://user-images.githubusercontent.com/76706477/228049601-3dd08901-4ed4-4d36-8e25-9b0f4d4c9514.png)
+
+
+
+The output file must be like that:
+
+
+**OUTPUT**
+
+![output](https://user-images.githubusercontent.com/76706477/228050608-fa3b5dfd-253c-4a5e-adbb-3a9947ec4d60.png)
+
+
+**To make this scenario:**
+
+1- Through writing our input and gettig the parse tree of it, we look at the branches of ***IF Statment*** and the condition of it and walking through branches to get the right side and left side of the condition.
+
+
+**Parsing Tree**
+(It is just a part of the tree)
+
+![parsingtree](https://user-images.githubusercontent.com/76706477/228052044-63f917fc-c366-45ca-bf73-1257c87cc6e6.png)
+
+
